@@ -1,0 +1,130 @@
+Cisco Meraki EMEA K-12 Lead Engage
+JM, V1
+03.28.22
+
+
+[page 1]
+Ensuring Connectivity and Security of Educational Institutions 
+
+To thrive in today’s digital world, educational institutions need connectivity and security. The European Commission foresees that by 2025, all schools should have access to gigabit internet connectivity because it would be necessary to access up-to-date resources or heavy-bandwidth online learning platforms. As schools throughout Europe increasingly rely on digital learning, users need access to a high-speed internet connection. 
+
+With my IT connectivity and security solution, I need to: 
+
+<buttons>
+
+•	Ensure safety with smart camera solutions, sensors, and access points 
+•	Enhance the student experience through high-performance connectivity
+•	Enable access to an enterprise-grade network without overspending
+
+<buttons>
+
+
+
+
+
+
+
+
+
+
+
+[page 2] 
+
+Stay Ahead of Security Threats
+
+You need a top-notch surveillance system. Sensors can be used to monitor a wide range of events and alert school authorities when an area has been accessed by an unauthorized person. Smart cameras not only help identify and eliminate security blind spots, but they also detect and investigate threats in real-time. School administrators are also able to monitor network activity in real-time so if suspicious behaviors or viruses are detected, IT teams can remotely authenticate endpoints via a cloud-based dashboard. 
+
+[detail bar or stat]
+Less than one out of five students in Europe attend schools that have access to high-
+speed internet that clocks over 100 Mbps.
+Source: Deloitte and Ipsos MORI, 2nd Survey of Schools: ICT in Education
+
+[button] Download the executive brief, “5 Ways Your Network Can Improve the Educational Experience in Your School,” now. 
+<<asset>> https://activatems.app.box.com/file/935648386054
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[page 3] 
+
+A Secure, Connected School is a Better Learning Space
+Educational institutions in Europe can provide a safe and secure learning environment with a robust cloud-based platform from Meraki. This creates a school where students and teachers can work together, engage in meaningful learning experiences, and create an atmosphere where teachers can teach better and students can learn more. 
+
+Read the executive brief to discover:
+
+•	Why schools should focus on connectivity
+•	How schools can improve security
+•	How high broadband creates immersive learning experiences
+
+[button] Download the executive brief, “5 Ways Your Network Can Improve the Educational Experience in Your School,” now.
+<<asset>> https://activatems.app.box.com/file/935648386054
+
+
+
+
+[END]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

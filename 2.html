@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<title>CISCO-MERAKI_IMM_GES_Lead Engage</title>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://fonts.cdnfonts.com/css/roboto" >
+	<style>
+	.zoom-in-zoom-out {
+	  width: 10%;
+	  height: 10%;
+	  animation: zoom-in-zoom-out 4s ease-out infinite;
+	}
+
+	@keyframes zoom-in-zoom-out {
+	  0% {
+	    transform: scale(1, 1);
+	  }
+	  50% {
+	    transform: scale(1.5, 1.5);
+	  }
+	  100% {
+	    transform: scale(1, 1);
+	  }
+	}
+	.up-down{
+  animation: up-down linear 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: up-down linear 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: up-down linear 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: up-down linear 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: up-down linear 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes up-down{
+  0% {
+    transform:  translate(1px,20px)  ;
+  }
+  24% {
+    transform:  translate(1px,30px)  ;
+  }
+  50% {
+    transform:  translate(1px,12px)  ;
+  }
+  74% {
+    transform:  translate(1px,22px)  ;
+  }
+  100% {
+    transform:  translate(1px,22px)  ;
+  }
+}
+
+@-moz-keyframes up-down{
+  0% {
+    -moz-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -moz-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -moz-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -moz-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -moz-transform:  translate(1px,22px)  ;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -webkit-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -webkit-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(1px,22px)  ;
+  }
+}
+
+@-o-keyframes up-down {
+  0% {
+    -o-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -o-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -o-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -o-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -o-transform:  translate(1px,22px)  ;
+  }
+}
+
+@-ms-keyframes up-down {
+  0% {
+    -ms-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -ms-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -ms-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -ms-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -ms-transform:  translate(1px,22px)  ;
+  }
+}
+	.imagecloud {
+		position: absolute;
+		margin: -70px 0 0 40px;
+	}
+	.imageinspect {
+		margin: 25px 0 0 0px;
+	}
+	.imageputer {
+		margin: 0px 0 0 15px;
+
+	}
+	.imageanalytics {
+		margin: 10 0 0 350px;
+
+	}
+	.image_secfiles {
+		position: absolute;
+		top: 60%;
+		left: 0%;
+		margin:0px 20px 0px 275px;
+	}
+	.image_rev {
+		position: absolute;
+		top: 61%;
+		left: 23%;
+		width: 41px;
+		height: 41px;
+		margin: 0px 0 0 0px;
+		-webkit-animation:spin 10s linear infinite;
+		-moz-animation:spin 10s linear infinite;
+		animation:spin 9s linear infinite;
+		animation-direction: reverse;
+	}
+	.image {
+		position: absolute;
+		top: 57%;
+		left: 16%;
+		width: 61px;
+		height: 61px;
+		margin: -15px 0 0 -15px;
+		-webkit-animation:spin 4s linear infinite;
+		-moz-animation:spin 4s linear infinite;
+		animation:spin 8s linear infinite;
+
+	}
+	.imagewheel {
+		position: absolute;
+		top: 11%;
+		left: 8%;
+		width: 363px;
+		height: 363px;
+		margin:0px 0 0 0px;
+		z-index: -3;
+		-webkit-animation:spin 15s linear infinite;
+		-moz-animation:spin 15s linear infinite;
+		animation:spin 15s linear infinite;
+	}
+	.imagedust {
+		width: 461px;
+		height: 385px;
+		position: absolute;
+		top: 15%;
+		left: 10%;
+		margin:-60px 0 0 -60px;
+	}
+	.imagegradhat {
+		position: absolute;
+		left: 10%;
+		margin:-15px 0 0 170px;
+	}
+	.imageemail {
+		top: 10%;
+		position: absolute;
+		left: 0%;
+		margin:0px 0px 0px 300px;
+	}
+	.imageserver {
+		margin:0 0 0 180px;
+	}
+	.imageall {
+		width: 120px;
+		height: 120px;
+	}
+
+	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+	</style>
+</head>
+<body style="background-color: #70aa56" id="initial">
+<!--
+Section 2 Begins
+-->
+<div id="section2" style="color:white">
+	<div class="body container ">
+		<div class="container col-md-10">
+			<div class="title">
+				<h4 style="margin: 0 0 0 15px;font-weight:300;font-family:Roboto;font-style:normal;text-decoration:none;text-transform:none;font-size:35px;color:rgba(255, 255, 255, 1)">
+					Stay Ahead of Security Threats
+				</h4>
+			</div>
+			<div class="left body second col-md-4">
+				<h4 style="line-height:24px;padding-right:0;padding-top:0;font-size:15pxs;line-height:24px;padding-right:0;padding-top:0">
+					You need a top-notch surveillance system. Sensors can be used to monitor a wide range of events and alert school authorities when an area has been accessed by an unauthorized person. Smart cameras not only help identify and eliminate security blind spots, but they also detect and investigate threats in real-time. School administrators are also able to monitor network activity in real-time so if suspicious behaviors or viruses are detected, IT teams can remotely authenticate endpoints via a cloud-based dashboard.
+				</h4>
+				<img width="220" height="170" src="./assets/illustration/scsa.png">
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-6">
+				<div class="row ">
+					<img class="imageserver" width="115px" height="105px" src="./assets/illustration/servers.png">
+				</div>
+				<br>
+				<div class="row">
+					<img class="imagecloud" width="122px" height="101px" src="./assets/illustration/cloud.png">
+					<img class="imageemail" width="87px" height="72" src="./assets/illustration/email.png">
+				</div>
+				<br>
+				<div class="row">
+					<img class="imageinspect" width="109px" height="89px" src="./assets/illustration/inspect.png">
+					<img class="imageputer" width="217px" height="181px" src="./assets/illustration/puter.png">
+					<img class="imagegradhat" width="137px" height="124px" src="./assets/illustration/grad-hat.png">
+					<img class="imageanalytics" width="88px" height="72px" src="./assets/illustration/analytics.png">
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="row">
+					<img class="image" src="./assets/illustration/gear.png">
+					<img class="image_rev" src="./assets/illustration/gear.png">
+					<img class="image_secfiles" width="88px" height="72px" src="./assets/illustration/secure-files.png">
+					<img z-index=1 class="imagewheel" src="./assets/illustration/wheel.png" >
+					<img class="imagedust up-down" src="./assets/illustration/dust.png">
+				</div>
+				<div class="row">
+					<div class="footer">
+						<h4 style="font-family:Roboto;font-style:normal;letter-spacing:0.1px;text-decoration:none;font-weight:700;text-transform:none;color:rgba(255, 255, 255, 1);font-size:17px;line-height:26px">
+							Download the executive brief, “5 Ways Your Network Can Improve the Educational Experience in Your School,” now.
+						</h4>
+						<br>
+						<div class="icon row text-center">
+							<a href="./3a.html">
+								<img src="./assets/illustration/button.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div height="25px">
+			</div>
+		</div>
+		<div class="col-md-2">
+			<img src="./assets/illustration/quote.png" alt="">
+			<!--
+			<div style="background-color: rgb(20,39,74);left: 0px; top: 0px; width: 223px; height: 324px; z-index: 334; border-color: rgb(255, 255, 255); border-radius: 16px; border-style: solid; border-width: 0px; box-sizing: border-box;">
+				<h4 style="line-height:22px;font-weight:500;font-family:Roboto;letter-spacing:0.1px;color:rgba(255, 255, 255, 1);font-style:normal;font-size:16px">
+					Less than one out of five students in Europe attend schools that have access to high-speed internet that clocks over 100 Mbps.
+				</h4>
+				<p style="font-style:italic;line-height:13px;font-family:Roboto;font-weight:400;font-size:10px;font-family:Roboto;letter-spacing:0.1px;color:rgba(255, 255, 255, 1);font-size:10px;font-weight:400">
+					Source: Deloitte and Ipsos MORI,
+					<br>
+					2nd Survey of Schools: ICT in Education
+				</p>
+			</div>
+		-->
+			<br>
+			<br>
+			<br>
+			<div class="" style="margin:0 0 0 65px">
+				<div class="row text center">
+					<img width="122" height="27" src="./assets/logo/cisco-meraki_KO.png" >
+				</div>
+				<br>
+				<div class="row text center">
+					<p style="margin:0 0 0 15px;font-family:Roboto;font-size:10px;letter-spacing:2.3px;font-style:normal;font-weight:500;color:rgba(255, 255, 255, 1)">
+						POWERED BY:
+					</p>
+				</div>
+				<div class="row text center">
+					<img width="122" height="47" src="./assets/logo/bizteklogo/bti_logo_KO_250.png" >
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+Section 2 Ends
+-->
+
+<script>
+// user gateway
+//	click one of the three buttons
+//	Click one button
+//	Enter your information into a form.
+//	Click submit
+
+</script>
+</body>
+</html>
